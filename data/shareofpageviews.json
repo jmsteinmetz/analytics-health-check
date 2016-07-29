@@ -1,0 +1,23 @@
+{
+    "details": [{
+        "label": "Share Of Pageviews",
+        "color": "#69c8ce"
+    }],
+    "labels": [{
+        "Nike": {
+            "value": 50
+        },
+        "Puma": {
+            "value": 25
+        },
+        "Adidas": {
+            "value": 17
+        },
+        "Asics": {
+            "value": 5
+        },
+        "Reebox": {
+            "value": 3
+        }
+    }]
+}

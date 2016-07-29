@@ -1,0 +1,180 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'proximanovalight';
+    src: url('/fonts/proximanova-light-webfont.eot');
+    src: url('/fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/proximanova-light-webfont.woff') format('woff'), url('/fonts/proximanova-light-webfont.ttf') format('truetype'), url('/fonts/proximanova-light-webfont.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'proximanovareg';
+    src: url('/fonts/proximanova-reg-webfont.eot');
+    src: url('/fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/proximanova-reg-webfont.woff') format('woff'), url('/fonts/proximanova-reg-webfont.ttf') format('truetype'), url('/fonts/proximanova-reg-webfont.svg#webfont') format('svg');
+}
+
+
+/* End Fonts */
+
+body {
+    font-family: 'proximanovareg';
+}
+
+
+/* Elements */
+
+select {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+option {
+    padding: 8px;
+    font-family: 'proximanovareg';
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* Header */
+
+.header {
+    height: 50px;
+    max-height: 50px;
+    background-image: url('/img/background.png');
+    background-repeat: repeat-x;
+}
+
+.header img.logo {
+    position: relative;
+    top: 7px;
+    left: -5px;
+}
+
+.thelogo {
+    padding-left: 0;
+}
+
+.smallerDate {
+    font-size: 60%;
+    color: #666666;
+}
+
+
+/* End Header */
+
+
+/* Titlebar */
+
+.titlebar {
+    padding: 17px 0px;
+    border: 0px solid #e2e2e2;
+    height: 85px;
+}
+
+.titlebar .title {
+    font-family: 'proximanovalight';
+    font-size: 34px;
+}
+
+.titlebar .download {
+    position: relative;
+    top: 15px;
+    color: #000000;
+    border: 1px solid #e2e2e2;
+    padding: 12px 17px;
+    border-radius: 8px;
+}
+
+.reportdetails {
+    padding: 12px 0px 0px;
+}
+
+.reportdetails .caption span {
+    font-size: 19px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.removeleftpadding {
+    padding-left: 0px;
+}
+
+.caption {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.58);
+    font-weight: normal;
+}
+
+
+/* End Titlebar */
+
+
+/* Table */
+
+.list-group-item.itemheader {
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: bold;
+}
+
+.item-columns span {
+    width: 16%;
+    min-width: 116px;
+    display: inline-block;
+    text-align: center;
+}
+
+.item-columns span.left-align {
+    text-align: left;
+}
+
+.item-columns span.right-align {
+    text-align: right;
+}
+
+.list-group-item.warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+}
+
+.list-group-item.success {
+    color: #999;
+    background-color: #B8FDD1;
+}
+
+#summary {
+    background-color: #e2e2e2;
+}
+
+
+/* End Table */
+
+
+/* Charts */
+
+#totalcoverage {
+    position: relative;
+    height: 186px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#totalcoverage svg {
+    position: relative;
+}
+
+
+/* End Charts */
+
+
+/* Footer */
+
+.container.footer {
+    margin-top: 20px;
+}
+
+
+/* End Footer */

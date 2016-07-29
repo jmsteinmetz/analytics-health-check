@@ -1,0 +1,47 @@
+{
+    "details": [{
+        "label": "Share Of Sales",
+        "color": "#fbb731"
+    }],
+    "locations": [{
+        "name": "Center of USA",
+        "radius": 10,
+        "yeild": 15000,
+        "country": "USA",
+        "significance": "It is the center of the map.",
+        "fillKey": "USA",
+        "date": "2015-11-01",
+        "latitude": 39.8282,
+        "longitude": -98.5795
+    }, {
+        "name": "New Orleans",
+        "radius": 29,
+        "yeild": 15000,
+        "country": "USA",
+        "significance": "Lorem Ipsum",
+        "fillKey": "USA",
+        "date": "2015-11-01",
+        "latitude": 29.951066,
+        "longitude": -90.071532
+    }, {
+        "name": "San Francisco",
+        "radius": 21,
+        "yeild": 15000,
+        "country": "USA",
+        "significance": "Lorem Ipsum",
+        "fillKey": "USA",
+        "date": "2015-11-01",
+        "latitude": 37.774929,
+        "longitude": -122.419416
+    }, {
+        "name": "San Francisco",
+        "radius": 21,
+        "yeild": 15000,
+        "country": "USA",
+        "significance": "Lorem Ipsum",
+        "fillKey": "USA",
+        "date": "2015-11-01",
+        "latitude": 46.064581,
+        "longitude": -118.343021
+    }]
+}

@@ -1,0 +1,23 @@
+{
+    "details": [{
+        "label": "Share Of Sales",
+        "color": "#fbb731"
+    }],
+    "labels": [{
+        "Nike": {
+            "value": 50
+        },
+        "Puma": {
+            "value": 25
+        },
+        "Adidas": {
+            "value": 17
+        },
+        "Asics": {
+            "value": 5
+        },
+        "Reebox": {
+            "value": 3
+        }
+    }]
+}
